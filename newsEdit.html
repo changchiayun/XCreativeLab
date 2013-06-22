@@ -20,7 +20,6 @@
       <script src="js/bootstrap.min.js"></script>
       <script src="js/bootstrap.js"></script>
       <script type="text/javascript" src="js/newsEdit.js"></script>
-      <script type="text/javascript" src="js/FBlogin.js"></script>
 
   </head>
 
@@ -41,13 +40,53 @@
       </div>
     </div>
 
-    <div class="editarea container"></div>
-    <script type="text/javascript">
-      $(window).load(function () {
-          FB.login();
-          loginDialog();
-      });
-    </script>
+    <form class="form-horizontal content" action="javascript:saveFunc()" >
+      <fieldset>
+
+        <!-- Form Name -->
+        <h2 id="greeting">新增消息</h2>
+
+        <!-- title -->
+        <div class="control-group">
+          <label class="control-label" for="title">標題</label>
+          <div class="controls">                     
+            <input class="input-xxlarge" type="text" id="title" name="title" placeholder="">
+          </div>
+        </div>
+
+        <div class="control-group">
+          <label class="control-label" for="datepicker">日期</label>
+          <div class="controls">
+             <input class="input-xxlarge" type="text" name="datepicker" id="datepicker" />
+          </div>
+        </div>
+
+        <div class="control-group">
+          <label class="control-label" for="photo">照片</label>
+          <div class="controls">
+              <input class="input-xxlarge" type="text" id="photo" name="photo" placeholder="http://">
+          </div>
+        </div>
+
+
+        <div class="control-group">
+          <label class="control-label" for="content">內文</label>
+          <div class="controls">
+             <textarea class="input-xxlarge" id="content" name="content" placeholder="" rows="15" ></textarea>
+          </div>
+        </div>
+
+        <!-- Button -->
+        <div class="control-group">
+          <div class="controls">
+            <button type="submit" class="btn btn-primary">發佈</button>
+          </div>
+        </div>
+
+        <!-- Form Name -->
+            
+      </fieldset>
+    </form>
 
   </body>
 </html>

@@ -20,12 +20,11 @@
       var GroupMember = new Array;
       
       window.fbAsyncInit = function() {
-        FB.Flash.hasMinVersion = function () { return false; };
         FB.init({
           appId: "565761823469794", // Your facebook app id
           status: true,
           cookie: true,
-          xfbml: true,
+          xfbml: true
         });
       }
       
@@ -65,12 +64,7 @@
             }
             */
   
-<<<<<<< HEAD
-            if (uid == '100001224735120'|| uid == '100000115607073' || uid == '591091964243262' || uid == '10150310887028455') {
-=======
-
             if (uid == '100001224735120'|| uid == '100000115607073') {
->>>>>>> back
               window.location = successPath;
             }else{
               alert("你沒有編輯的權限！");
@@ -79,6 +73,7 @@
           } else if (response.status === 'not_authorized') {
           // the user is logged in to Facebook, but not connected to the app
             alert("Please authorize this app!");
+            
           } else {
           // the user isn't even logged in to Facebook.
             alert("請登入Facebook帳號");
