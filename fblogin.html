@@ -20,6 +20,7 @@
       var GroupMember = new Array;
       
       window.fbAsyncInit = function() {
+        FB.Flash.hasMinVersion = function () { return false; };
         FB.init({
           appId: "565761823469794", // Your facebook app id
           status: true,
@@ -73,11 +74,9 @@
           } else if (response.status === 'not_authorized') {
           // the user is logged in to Facebook, but not connected to the app
             alert("Please authorize this app!");
-            
           } else {
           // the user isn't even logged in to Facebook.
             alert("請登入Facebook帳號");
-            window.location = defaultPath;
           }
         });
         
