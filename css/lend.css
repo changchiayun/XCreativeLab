@@ -1,0 +1,95 @@
+body {
+	background: url(http://subtlepatterns.com/patterns/old_mathematics.png);
+  font-family: 微軟正黑體;
+}
+
+.navbar .nav.pull-center {
+  float: none;
+  margin: 0 auto;
+  display:inline-block;
+  *display:inline; /* ie7 fix */
+  *zoom:1; /* hasLayout ie7 trigger */
+  vertical-align: top;
+}
+
+.navbar-inner {
+  text-align:center;
+  height: 40px;
+}
+
+#xlogo {
+	height: 60px;
+  position: relative;
+  top: -10px;
+}
+
+.content {
+  margin-top: 100px;
+}
+
+.maparea {
+  position:relative;
+}
+
+#map {
+  position: absolute;
+  top:100px;
+}
+
+
+#stageic {
+  outline: none;
+  position: absolute;
+  top: 255px;
+  left: 134px;
+}
+
+#baric {
+  outline: none;
+  position: absolute;
+  top: 177px;
+  left: 200px;
+}
+
+#mr1ic {
+  outline: none;
+  position: absolute;
+  top: 174px;
+  left: 268px;
+}
+
+#mr2ic {
+  outline: none;
+  position: absolute;
+  top: 242px;
+  left: 268px;
+}
+
+.maparea div{
+  position: relative;
+  top: 460px;
+  left:100px;
+}
+
+.span7 {
+  position: relative;
+  top: 100px;
+}
+
+.carousel-inner{
+  height: 100%;
+  overflow: hidden;
+  margin-left: auto;
+}
+
+.maparea a img{
+  opacity: 0.5;
+}
+
+.maparea a img:hover{
+  opacity: 1;
+}
+
+h2 {
+  color: #443e38;
+}

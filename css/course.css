@@ -1,0 +1,66 @@
+body {
+  background: url(http://subtlepatterns.com/patterns/old_mathematics.png);
+  font-family: 微軟正黑體;
+}
+
+.navbar .nav.pull-center {
+  float: none;
+  margin: 0 auto;
+  display:inline-block;
+  *display:inline; /* ie7 fix */
+  *zoom:1; /* hasLayout ie7 trigger */
+  vertical-align: top;
+}
+
+.navbar-inner {
+  text-align:center;
+  height: 40px;
+}
+
+#xlogo {
+  height: 60px;
+  position: relative;
+  top: -10px;
+}
+
+.content {
+  margin-top: 100px;
+}
+
+.course {
+  margin-top: 25px;
+
+}
+
+.cGroup {
+  margin-top: 25px;
+}
+
+.cGroup img {
+  box-shadow: 0 10px 6px -6px black;
+}
+
+.intro {
+  text-align: center;
+  font-size: 15px;
+  margin-bottom: 50px;
+  margin-top: 20px;
+}
+
+.title {
+  text-align: center;
+  margin-top: 30px;
+}
+
+#learning {
+  display:block;
+  margin: 30px auto;
+}
+
+h2 {
+  color: #b1d023;
+}
+
+h3 {
+  color: #775a3f;
+}

@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset=utf-8 />
+<title>場地租借─X書院@創意實驗室</title>
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css" />
+  <link href="css/bootstrap-responsive.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" type="text/css" href="css/lend.css">
+  <script src="http://code.jquery.com/jquery.min.js"></script>
+  <script src="js/changeBody.js"></script>
+      <script src="js/bootstrap.js"></script>
+    <script src="http://code.jquery.com/jquery.min.js"></script>
+    <script src="js/bootstrap-carousel.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/selectimg.js"></script>
+</head>
+<body>
+  <div class="navbar navbar-inverse navbar-fixed-top">
+  <div class="navbar-inner">
+    <ul class="menu nav pull-center">
+    <li><a  href="news.html">最新消息</a></li>
+    <li><a href="about.html">關於這裡</a></li>
+    <li><a  href="team.html">工作團隊</a></li>
+    <li><a  href="time.html">大事記</a></li>
+    <li><a  href="index.html"><img id="xlogo" class="img-rounded" src="Img/index/logo.png"></a></li>
+    <li><a  href="course.html">課程內容</a></li>
+    <li><a  href="getin.html">入學甄選</a></li>
+    <li class="active"><a  href="lend.html">場地租借</a></li>
+    <li><a  href="connect.html">聯絡方式</a></li>
+    </ul>
+  </div>
+  </div>
+  <div class="container">
+    <div class="maparea span4">
+    <img id="map" src="Img/lend/blank.png">
+    <a href="javascript:changeBody(1)"><img id="stageic" src="Img/lend/stage.png" title="舞台"></a>
+    <a href="javascript:changeBody(2)"><img id="baric" src="Img/lend/bar.png" title="吧台" ></a>
+    <a href="javascript:changeBody(3)"><img id="mr1ic" src="Img/lend/meeting1.png" title="會議空間" ></a>
+    <a href="javascript:changeBody(4)"><img id="mr2ic" src="Img/lend/meeting2.png" title="會議空間二" ></a>
+    <div>
+    <a class="btn btn-inverse btn-large" href="lendtable.html">租借辦法與場租一覽表</a>
+    </div>  
+    </div>
+    <div class="span7">
+    <div id="stage" style="display: ">
+      <div id="myCarousel1" class="carousel slide ">
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel1" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel1" data-slide-to="1"></li>
+        <li data-target="#myCarousel1" data-slide-to="2"></li>
+      </ol>
+      <!-- Carousel items -->
+      <div class="carousel-inner">
+        <div class="active item"><img src="Img/lend/stage1.jpg"></div>
+        <div class="item"><img src="Img/lend/stage2.jpg"></div>
+        <div class="item"><img src="Img/lend/stage3.jpg"></div>
+      </div>
+      <!-- Carousel nav -->
+      <a class="carousel-control left" href="#myCarousel1" data-slide="prev">&lsaquo;</a>
+      <a class="carousel-control right" href="#myCarousel1" data-slide="next">&rsaquo;</a>
+      </div>
+      <h2>舞台</h2>
+      <p>
+        木頭圓形舞台、地板，柔和的照明，還有多用途投影玻璃。白天有很好的採光，晚上有漂亮的夜景。<br>
+        適合: 講座、課程、遊戲、工作坊、餐會、表演會…<br>
+        設備提供:投影機 / 無線上網<br>
+      </p>
+    </div>
+    <div id="bar" style="display: none">
+      <div id="myCarousel2" class="carousel slide ">
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel2" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel2" data-slide-to="1"></li>
+        <li data-target="#myCarousel1" data-slide-to="2"></li>
+      </ol>
+      <!-- Carousel items -->
+      <div class="carousel-inner">
+        <div class="active item"><img src="Img/lend/bar1.jpg"></div>
+        <div class="item"><img src="Img/lend/bar2.jpg"></div>
+        <div class="item"><img src="Img/lend/bar3.jpg"></div>
+      </div>
+      <!-- Carousel nav -->
+      <a class="carousel-control left" href="#myCarousel2" data-slide="prev">&lsaquo;</a>
+      <a class="carousel-control right" href="#myCarousel2" data-slide="next">&rsaquo;</a>
+      </div>
+      <h2>吧台</h2>
+      <p>
+        適合： 課程、餐會、活動…<br>
+        設備提供: 進口電子爐/料理檯/水槽/以及木質地板區域。其它設備請另外填寫器材借用單。<br>
+        </p>
+    </div>
+    <div id="mr1" style="display: none">
+      <div id="myCarousel3" class="carousel slide ">
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel3" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel3" data-slide-to="1"></li>
+        <li data-target="#myCarousel1" data-slide-to="2"></li>
+      </ol>
+      <!-- Carousel items -->
+      <div class="carousel-inner">
+        <div class="active item"><img src="Img/lend/mr11.jpg"></div>
+        <div class="item"><img src="Img/lend/mr12.jpg"></div>
+        <div class="item"><img src="Img/lend/mr13.jpg"></div>
+      </div>
+      <!-- Carousel nav -->
+      <a class="carousel-control left" href="#myCarousel3" data-slide="prev">&lsaquo;</a>
+      <a class="carousel-control right" href="#myCarousel3" data-slide="next">&rsaquo;</a>
+      </div>
+      <h2>會議空間</h2>
+      <p>
+        木質地板與明亮的採光、多用途投影玻璃。<br>
+        設備提供:投影機 / 無線上網 / 麥克風<br>
+      </p>  
+    </div>
+    <div id="mr2" style="display: none">
+      <div id="myCarousel4" class="carousel slide ">
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel4" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel4" data-slide-to="1"></li>
+        <li data-target="#myCarousel1" data-slide-to="2"></li>
+      </ol>
+      <!-- Carousel items -->
+      <div class="carousel-inner">
+        <div class="active item"><img src="Img/lend/mr21.jpg"></div>
+        <div class="item"><img src="Img/lend/mr22.jpg"></div>
+        <div class="item"><img src="Img/lend/mr23.jpg"></div>
+      </div>
+      <!-- Carousel nav -->
+      <a class="carousel-control left" href="#myCarousel4" data-slide="prev">&lsaquo;</a>
+      <a class="carousel-control right" href="#myCarousel4" data-slide="next">&rsaquo;</a>
+      </div>
+      <h2>會議空間二</h2>
+      <p>
+        木質地板與明亮的採光、多用途投影玻璃。<br>
+        適合: 課程、會議室、電影室、舞蹈教室…<br>
+        設備提供:麥克風 / 投影機 <br>
+      </p>
+    </div>
+
+  
+</body>
+</html>

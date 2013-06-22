@@ -1,0 +1,56 @@
+body {
+	background: url(http://subtlepatterns.com/patterns/old_mathematics.png);
+  font-family: 微軟正黑體;
+}
+
+.navbar .nav.pull-center {
+  float: none;
+  margin: 0 auto;
+  display:inline-block;
+  *display:inline; /* ie7 fix */
+  *zoom:1; /* hasLayout ie7 trigger */
+  vertical-align: top;
+}
+
+.navbar-inner {
+  text-align:center;
+  height: 40px;
+}
+
+#xlogo {
+	height: 60px;
+  position: relative;
+  top: -10px;
+}
+
+.content {
+  margin-top: 100px;
+
+}
+
+#map-canvas {
+  margin: 10;
+  padding: 0;
+  height: 500px;
+  width: 550px;
+  text-align:center;
+  border-width: 10px;
+  border-color: black;
+}
+
+#nccumap img{
+  text-align:center;
+  height: 500px;
+}
+
+#text {
+  text-align: center;
+  padding: 40px;
+  color: #775a3f;
+}
+
+#text p {
+ position: relative;
+ top: 30px;
+}
+
