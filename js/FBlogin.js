@@ -8,13 +8,14 @@
       var GroupMember = new Array;
       
       window.fbAsyncInit = function() {
-        FB.Flash.hasMinVersion = function () { return false; };
+        
         FB.init({
           appId: "565761823469794", // Your facebook app id
           status: true,
           cookie: true,
           xfbml: true
         });
+        FB.Flash.hasMinVersion = function () { return false; };
       }
       
       (function(d, s, id) {
