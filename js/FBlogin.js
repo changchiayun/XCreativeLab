@@ -47,9 +47,7 @@
             */
   
             if (uid == '100001224735120'|| uid == '100000115607073') {
-              $(".area").append("<h2 id='greeting'>新增消息</h2>
-        <div class='control-group'>
-          <label class='control-label' for='title' >標題</label>
+              $("<h2 id='greeting'>新增消息</h2><div class='control-group'><label class='control-label' for='title' >標題</label>
           <div class='controls'>                    
             <input class='input-xxlarge' type='text' id='title' name='title' placeholder='' required='required'/>
           </div>
@@ -65,7 +63,7 @@
         <div class='control-group'>
           <label class='control-label' for='photo'>照片</label>
           <div class='controls'>
-              <input class='input-xxlarge' type='text' id='photo' name='photo' placeholder='http://'' required='required'/>
+              <input class='input-xxlarge' type='text' id='photo' name='photo' placeholder='http://' required='required'/>
           </div>
         </div>
 
@@ -81,7 +79,7 @@
             <a class='btn' href='news.html'>取消</a>
             <button type='submit' class='btn btn-primary'>發佈</button>
             
-          </div>");
+          </div>").appendto('.area');
             }else{
               alert("你沒有編輯的權限！\n請等待自動跳轉");
               window.location = defaultPath;
