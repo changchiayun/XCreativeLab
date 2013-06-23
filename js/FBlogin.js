@@ -47,7 +47,7 @@
             */
   
             if (uid == '100001224735120'|| uid == '100000115607073') {
-              $(".submit").append("<button type='submit' class='btn btn-primary'>發佈</button>");
+              $(".submitbtn").append("<button type='submit' class='btn btn-primary'>發佈</button>");
             }else{
               alert("你沒有編輯的權限！<br>請等待自動跳轉");
               window.location = defaultPath;
